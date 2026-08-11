@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(236, 159, 236);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(126, 89, 126);
+    padding: 20px;
+}
+
+header .nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
